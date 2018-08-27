@@ -4,7 +4,7 @@ import vowpalWabbit.learner.VWLearners;
 
 public final class VW {
     static {
-        System.loadLibrary("vw_jni");
+        NativeLibrary.load();
     }
 
     /**
